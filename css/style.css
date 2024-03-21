@@ -3,12 +3,15 @@
     margin: 0;
     font-family: Helvetica;
     box-sizing: border-box;
+    background-color: #fff;
+    
 }
 
 /*Cabeçalho*/
 
 .lema{
     color: #fff;
+    background-color: transparent;
 }
 
 header{
@@ -19,7 +22,9 @@ header{
     height: 100px;
 }
 
-.logo{
+#logo{
+    background-image: url("../Imagens/logo.png");
+    background-color: transparent;
     text-align: left;
     width: 100px;
     margin-bottom: 10px;
@@ -60,33 +65,57 @@ header{
 }
 
 #img-1{
-    background-image: url('../img/tenis1.jpg');
+    background-image: url('../Imagens/tenis 1.webp');
 }
 
 #img-2{
-    background-image: url('../img/tenis2.jpg');
+    background-image: url('../Imagens/tenis 2.webp');
 }
 
 #img-3{
-    background-image: url('../img/tenis3.jpg');
+    background-image: url('../Imagens/tenis 3.webp');
 }
 
 #img-4{
-    background-image: url('../img/tenis4.jpg');
+    background-image: url('../Imagens/tenis 4.webp');
 }
 
 #img-5{
-    background-image: url('../img/tenis5.jpg');
+    background-image: url('../Imagens/tenis 5.jpg');
 }
 
 #img-6{
-    background-image: url('../img/tenis6.jpg');
+    background-image: url('../Imagens/tenis 6.webp');
+}
+
+#img-7{
+    background-image: url('../Imagens/tenis 7.jpg');
+}
+
+#img-8{
+    background-image: url('../Imagens/tenis 8.webp');
+}
+
+#img-9{
+    background-image: url('../Imagens/tenis 9.webp');
+}
+
+#img-10{
+    background-image: url('../Imagens/tenis 10.webp');
+}
+
+#img-11{
+    background-image: url('../Imagens/tenis 11.jpg');
+}
+
+#img-12{
+    background-image: url('../Imagens/tenis 12.jpg');
 }
 
 h3{
     margin-bottom: 10px;
     color: black;
-    font-size: 24px;
+    font-size: 16px;
     padding-left: 8px;
 }
 
@@ -102,7 +131,7 @@ h3{
 
 .btn{
     display:block;
-    width: 100%;
+    width: 80%;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
@@ -131,8 +160,8 @@ footer{
     --border-after-color: #5891ff;
     --input-hovered-color: #4985e01f;
     position: relative;
-    top: -87px;
-    right: -1160px;
+    top: -80px;
+    right: -1150px;
     width: var(--width-of-input);
    }
 .input {
@@ -146,5 +175,9 @@ footer{
     border: none;
     border-bottom: var(--border-height) solid var(--border-before-color);
    }
+
+#tabela-produto{
+    background-color: #fff;
+}
    
 
