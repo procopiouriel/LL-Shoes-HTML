@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+/*Cabeçalho*/
+
+.lema{
+    color: #fff;
+}
+
+header{
+    background-color: #040A44;
+    text-align: center;
+    padding: 14px;
+    color: #fff;
+    height: 100px;
+}
+
+.logo{
+    text-align: left;
+    width: 100px;
+    margin-bottom: 10px;
+    position: relative;
+    top: -80px;
+    left: -700px;
+}
+
+/*GRID DE PRODUTOS*/
+
+.container{
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.catalogo-produto{
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+
+.card{
+    width: 29%;
+    margin: 1% 1%;
+    display: inline-block;
+    padding: 15px;
+
+}
+
+.produto-imagem{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#img-1{
+    background-image: url('../img/tenis1.jpg');
+}
+
+#img-2{
+    background-image: url('../img/tenis2.jpg');
+}
+
+#img-3{
+    background-image: url('../img/tenis3.jpg');
+}
+
+#img-4{
+    background-image: url('../img/tenis4.jpg');
+}
+
+#img-5{
+    background-image: url('../img/tenis5.jpg');
+}
+
+#img-6{
+    background-image: url('../img/tenis6.jpg');
+}
+
+h3{
+    margin-bottom: 10px;
+    color: black;
+    font-size: 24px;
+    padding-left: 8px;
+}
+
+.card p{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.bold{
+    font-weight: bold;
+}
+
+.btn{
+    display:block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #3db36b;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+background-color: #0f642f;
+
+}
+
+footer{
+    background-color: #3db36b;
+    text-align: center;
+    padding: 80px;
+    color: #fff;
+}
+
+.form {
+    --width-of-input: 300px;
+    --border-height: 1px;
+    --border-before-color: rgba(221, 221, 221, 0.39);
+    --border-after-color: #5891ff;
+    --input-hovered-color: #4985e01f;
+    position: relative;
+    top: -87px;
+    right: -1160px;
+    width: var(--width-of-input);
+   }
+.input {
+    color: black;
+    font-size: 0.9rem;
+    background-color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    padding-inline: 0.5em;
+    padding-block: 0.7em;
+    border: none;
+    border-bottom: var(--border-height) solid var(--border-before-color);
+   }
+   
+
