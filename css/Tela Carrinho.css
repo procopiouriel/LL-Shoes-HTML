@@ -1,0 +1,78 @@
+/*Cabeçalho*/
+
+.lema{
+    color: #fff;
+    background-color: transparent;
+    font-size: 25px;
+
+}
+
+header{
+    background-color: #040A44;
+    text-align: center;
+    padding: 14px;
+    color: #fff;
+    height: 100px;
+}
+
+#logo{
+    text-align: top; 
+    background-color: transparent;
+    margin-left: -1160px;
+    margin-top: -100px;
+}
+
+/*CORPO*/
+
+
+.lista-produtos-carrinho{
+    margin-top: -100px;
+    padding: 109px;
+    margin-left: -100px;
+}
+#img-1{
+    background-color: transparent;
+
+}
+
+#img-2{
+    margin-top: 100px;
+    margin-left: -1150px;
+    background-color: transparent;
+}
+
+#descricao-produto{
+    margin-top: -200px;
+    margin-left: 500px;
+}
+
+#descricao-produto1{
+    margin-top: -530px;
+    margin-left: 500px;
+}
+
+#preco-1{
+    margin-top: -130px;
+    margin-left: 1000px;
+    padding: 80px;
+
+}
+
+#preco-2{
+    margin-top: -60px;
+    margin-left: 1060px;    
+
+}
+
+#linha-produto-1{
+    border: 2px solid black; /* Espessura, estilo e cor da linha */
+    height: 300px;
+    
+}
+#linha-produto-2{
+    border: 2px solid black; /* Espessura, estilo e cor da linha */
+    height: 300px;
+  
+
+}
+
