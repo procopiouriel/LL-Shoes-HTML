@@ -1,0 +1,215 @@
+.lema{
+    color: #fff;
+    background-color: transparent;
+}
+
+header{
+    background-color: #040A44;
+    text-align: center;
+    padding: 14px;
+    color: #fff;
+    height: 100px;
+}
+
+#logo{
+    text-align: top; 
+    background-color: transparent;
+    margin-left: -1180px;
+    margin-top: -70px;
+   
+}
+
+.nome-produto{
+    text-align: left;
+    color: black;
+    font-family: Helvetica;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.cor-produto{
+    font-family: Helvetica;
+    font-size: 20px;
+    text-align: left;
+    color: rgb(5, 2, 2);
+    margin-bottom: 10px;
+}
+.seta{
+    position: relative;
+    top: -150px;
+}
+.setaa{
+    position: relative;
+    top: -150px;
+}
+#estrelas{
+    margin: left;
+   margin-bottom: 10px;
+}
+.opcao{
+    margin-top: -10px;
+    font-family: Helvetica;
+    font-size: 45px;
+    margin: left;
+}
+.b1{
+    display:inline-block;
+    width: 8%;
+    font-family: helvetica;
+    font-size: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #040A44;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 200px;
+    
+}
+.b2{
+    display:inline-block;
+    width: 8%;
+    font-family: helvetica;
+    font-size: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #040A44;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.b3{
+    display:inline-block;
+    width: 8%;
+    font-family: helvetica;
+    font-size: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #040A44;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.b4{
+    display:inline-block;
+    width: 8%;
+    font-family: helvetica;
+    font-size: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #040A44;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.b5{
+    display:inline-block;
+    width: 8%;
+    font-family: helvetica;
+    font-size: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #040A44;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.b6{
+    display:inline-block;
+    width: 8%;
+    font-family: helvetica;
+    font-size: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #040A44;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.b7{
+    display:inline-block;
+    width: 8%;
+    font-family: helvetica;
+    font-size: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #040A44;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.b8{
+    display:inline-block;
+    width: 8%;
+    font-family: helvetica;
+    font-size: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #040A44;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.descricao{
+    display: block;
+    width: 100%;
+    height: 80px;
+    font-size: 30px;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color:#fff;
+    color: black;
+    padding: 15px;
+    font-family: helvetica;
+    border-radius: 5px;
+}
+.seta-descricao{
+    width: 45px;
+    position: relative;
+    left: 1300px;
+}
+.valor-antigo{
+    position: relative;
+    font-family: Helvetica;
+    font-size: 20px;
+    text-align: left;
+    color: rgb(5, 2, 2);  
+}
+
+.desconto{
+    position: absolute;
+    margin-left: 25px;
+    background-color: #040A44;
+    color: #fff;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+.preco{
+    width: 800px;
+    font-size: 85px;
+    font-family: helvetica;
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+.parcelas{  
+        font-family: Helvetica;
+        font-size: 20px;
+        text-align: left;
+        color: rgb(5, 2, 2);
+}
+
