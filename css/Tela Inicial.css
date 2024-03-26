@@ -12,7 +12,8 @@
 .lema{
     color: #fff;
     background-color: transparent;
-    font-size: 20px;
+    font-size: 25px;
+    font-family: Helvetica;
 }
 
 header{
@@ -28,8 +29,8 @@ header{
     text-align: top; 
     background-color: transparent;
     margin-left: -1600px;
-    margin-top: -130px;
-    width: 130px;
+    margin-top: -80px;
+   
 }
 
 
@@ -38,11 +39,13 @@ header{
 .container{
     background-color: #eee;
     padding: 50px ;
+    
 }
 
 .catalogo-produto{
     max-width: 1400px;
     margin: 1 auto;
+    margin-left: 10%;
 
 }
 
@@ -92,7 +95,7 @@ header{
 }
 
 #img-8{
-    background-image: url('../Imagens/tenis 8.webp');
+    background-image: url('../Imagens/tenis 8.png');
 }
 
 #img-9{
@@ -155,6 +158,8 @@ footer{
 #rodape-palavras{
     color: black;
     background-color: #D1D9F0;
+    font-family: Helvetica;
+    font-size: 20px;
 }
 
 
