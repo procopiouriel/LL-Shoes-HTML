@@ -12,8 +12,7 @@
 .lema{
     color: #fff;
     background-color: transparent;
-    font-size: 25px;
-
+    font-size: 20px;
 }
 
 header{
@@ -22,14 +21,15 @@ header{
     padding: 14px;
     color: #fff;
     height: 100px;
+    
 }
 
 #logo{
     text-align: top; 
     background-color: transparent;
-    margin-left: -1180px;
-    margin-top: -80px;
-   
+    margin-left: -1600px;
+    margin-top: -130px;
+    width: 130px;
 }
 
 

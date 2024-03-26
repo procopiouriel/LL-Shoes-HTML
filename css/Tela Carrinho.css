@@ -3,8 +3,8 @@
 .lema{
     color: #fff;
     background-color: transparent;
-    font-size: 25px;
-
+    font-size: 35px;
+    font-family: Helvetica;
 }
 
 header{
@@ -13,13 +13,15 @@ header{
     padding: 14px;
     color: #fff;
     height: 100px;
+    
 }
 
 #logo{
     text-align: top; 
     background-color: transparent;
-    margin-left: -1350px;
-    margin-top: -100px;
+    margin-left: -1600px;
+    margin-top: -160px;
+    width: 130px;
 }
 
 /*CORPO*/
@@ -89,12 +91,14 @@ header{
 
 #subtotal{
     font-size: 50px;
+    
 }
 
 #precoTotal{
     margin-left: 1200px;
     margin-top: -80px;
     font-size: 50px;
+    font-family: helvetica;
 }
 
 #aviso{
@@ -108,7 +112,7 @@ header{
 .btn{
     font-family: Helvetica;
     display:block;
-    width: 80%;
+    width: 90%;
     text-align: center;
     text-decoration: none;
     background-color: #040A44;
