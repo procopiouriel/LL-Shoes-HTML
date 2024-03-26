@@ -1,6 +1,7 @@
 .lema{
     color: #fff;
     background-color: transparent;
+    font-size: 25px;
 }
 
 header{
@@ -9,14 +10,15 @@ header{
     padding: 14px;
     color: #fff;
     height: 100px;
+    
 }
 
 #logo{
     text-align: top; 
     background-color: transparent;
-    margin-left: -1180px;
-    margin-top: -70px;
-   
+    margin-left: -1600px;
+    margin-top: -130px;
+    width: 130px;
 }
 
 .nome-produto{
@@ -167,21 +169,27 @@ header{
 .descricao{
     display: block;
     width: 100%;
-    height: 80px;
-    font-size: 30px;
+    height: 40px;
     text-align: left;
     text-transform: uppercase;
     text-decoration: none;
-    background-color:#fff;
-    color: black;
+    background-color:#fff;  
     padding: 15px;
     font-family: helvetica;
     border-radius: 5px;
+    color: black;
+    border: black;
+    font-size: 30px;
+    border: 2px solid black; /* Espessura, estilo e cor da linha */
 }
 .seta-descricao{
     width: 45px;
     position: relative;
-    left: 1300px;
+    left: 1350px;
+}
+.texto-descricao{
+    font-size: 30px;
+    color: black;
 }
 .valor-antigo{
     position: relative;
@@ -211,5 +219,37 @@ header{
         font-size: 20px;
         text-align: left;
         color: rgb(5, 2, 2);
+}
+.adicionar-carrinho{
+    display: block;
+    width: 40%;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color:#040A44;
+    color: #fff;
+    padding: 15px;
+    font-family: helvetica;
+    border-radius: 5px;
+}
+.img-carrinho{
+    width: 65px;
+    position: relative;
+    left: 50px;
+    bottom: -10px;
+}
+.b-gostei{
+    margin-left: 25px;
+    border-radius: 50%;
+    background-color: #040A44;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 1400px;
+    right: 40px;
+}
+.coracao{
+    width:60px;
 }
 
