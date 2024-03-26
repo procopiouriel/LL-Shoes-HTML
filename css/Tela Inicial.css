@@ -12,6 +12,8 @@
 .lema{
     color: #fff;
     background-color: transparent;
+    font-size: 25px;
+
 }
 
 header{
@@ -26,47 +28,39 @@ header{
     text-align: top; 
     background-color: transparent;
     margin-left: -1180px;
-    margin-top: -70px;
+    margin-top: -80px;
    
 }
 
-#img-lupa{
-    background-image: url(../Imagens/lupa.png);
-    text-align: top; 
-    background-color: transparent;
-    margin-left: 540px;
-    margin-top: 0px;
-}
 
 /*GRID DE PRODUTOS*/
 
 .container{
     background-color: #eee;
-    min-height: 60vh;
-    padding: 50px;
+    padding: 50px ;
 }
 
 .catalogo-produto{
     max-width: 1400px;
-    margin: 0 auto;
+    margin: 1 auto;
 
 }
 
 .card{
     width: 29%;
-    margin: 1% 1%;
+    margin: auto 24px;
     display: inline-block;
-    padding: 15px;
+    padding: 25px;
 
 }
 
 .produto-imagem{
     height: 300px;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin: 10px;
     background-position: center;
     background-size: cover;
-
 }
 
 #img-1{
@@ -90,7 +84,7 @@ header{
 }
 
 #img-6{
-    background-image: url('../Imagens/tenis 6.webp');
+    background-image: url('../Imagens/tenis 6.jpeg');
 }
 
 #img-7{
@@ -155,33 +149,12 @@ footer{
     background-color: #D1D9F0;
     text-align: center;
     padding: 80px;
-    color: black;
-    background-color: transparent;
+   
 }
 
-.form {
-    --width-of-input: 300px;
-    --border-height: 1px;
-    --border-before-color: rgba(221, 221, 221, 0.39);
-    --border-after-color: #5891ff;
-    --input-hovered-color: #4985e01f;
-    position: relative;
-    top: -1px;
-    right: -917px;
-    width: var(--width-of-input);
-   }
-.input {
+#rodape-palavras{
     color: black;
-    font-size: 0.9rem;
-    background-color: transparent;
-    width: 100%;
-    box-sizing: border-box;
-    padding-inline: 0.5em;
-    padding-block: 0.7em;
-    border: none;
-    border-bottom: var(--border-height) solid var(--border-before-color);
-   }
-
-#tabela-produto{
-    background-color: #fff;
+    background-color: #D1D9F0;
 }
+
+
