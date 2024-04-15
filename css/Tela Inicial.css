@@ -3,7 +3,7 @@
     margin: 0;
     font-family: Helvetica;
     box-sizing: border-box;
-    background-color: #fff;
+    background-color: white;
     
 }
 
@@ -13,11 +13,7 @@
     color: #fff;
     background-color: transparent;
     font-size: 25px;
-<<<<<<< HEAD
     font-family: helvetica;
-=======
-    font-family: Helvetica;
->>>>>>> d25bf8c90209db6c3ee9feab8af42399913d4499
 }
 
 header{
@@ -51,49 +47,62 @@ header{
 .corpo{
     display: flex;
     flex-flow: row wrap;
+    background-color: #fff;
 }
 
 .card {
     flex: 32%;
-    background: #8f94c4;
-    height: 350px;
+    background: #fff    ;
+    height: 510px;
     margin: 1%;
 }
 
 .corpo2{
     display: flex;
     flex-flow: row wrap;
+    background-color: #fff;
+    margin-top: 90px;
 }
 
 .card2 {
     flex: 32%;
-    background: #8f94c4;
-    height: 350px;
+    background: #fff    ;
+    height: 510px;
+    
     margin: 1%;
 }
+
 .corpo3{
     display: flex;
     flex-flow: row wrap;
+    background-color: #fff;
+    margin-top:     90px;
+
+
 }
 
 .card3 {
     flex: 32%;
-    background: #8f94c4;
-    height: 350px;
+    background: #fff    ;
+    height: 510px;
     margin: 1%;
+
+
 }
 .corpo4{
     display: flex;
     flex-flow: row wrap;
+    background-color: #fff;
+    margin-top: 90px;
 }
 
 .card4 {
     flex: 32%;
-    background: #8f94c4;
-    height: 350px;
+    background: #fff    ;
+    height: 510px;
     margin: 1%;
-}
 
+}
 
 
 #logo{
@@ -109,15 +118,18 @@ header{
 
 .container{
     background-color: #eee;
-    padding: 50px ;
-    
+    padding: 100px ;
+    height: 2400px;
+
 }
 
 .catalogo-produto{
     max-width: 1400px;
     margin: 1 auto;
     margin-left: 10%;
-
+    margin-top: -100px;
+    height: 2200px;
+    background-color: white;
 }
 
 /*.card{
@@ -130,11 +142,13 @@ header{
 
 .produto-imagem{
     height: 300px;
-    width: 100%;
-    margin-bottom: 20px;
-    margin: 10px;
+    width: 100;
+    margin: px;
+    margin-left: -0px;
     background-position: center;
     background-size: cover;
+    background-color: transparent;
+    
 }
 
 #img-1{
@@ -151,6 +165,7 @@ header{
 
 #img-4{
     background-image: url('../Imagens/tenis 4.webp');
+
 }
 
 #img-5{
@@ -159,6 +174,7 @@ header{
 
 #img-6{
     background-image: url('../Imagens/tenis 6.jpeg');
+
 }
 
 #img-7{
@@ -190,7 +206,7 @@ h3{
     color: black;
     font-size: 16px;
     padding-left: 8px;
-    background-color: #8f94c4;
+    background-color: #fff;
 }
 
 /*.card p{
@@ -201,6 +217,7 @@ h3{
 
 .bold{
     font-weight: bold;
+    background-color: white;
 }
 
 .btn{
@@ -213,6 +230,9 @@ h3{
     color: #fff;
     padding: 15px;
     border-radius: 5px;
+    flex: 32%;
+    margin: 1%;
+    margin-top: 10px;
 }
 
 .btn:hover {
@@ -224,6 +244,7 @@ footer{
     background-color: #D1D9F0;
     text-align: center;
     padding: 80px;
+    margin-top: -150px;
    
 }
 
@@ -233,5 +254,7 @@ footer{
     font-family: Helvetica;
     font-size: 20px;
 }
-
+p{
+    background-color: #fff;
+}
 
