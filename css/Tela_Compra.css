@@ -2,11 +2,7 @@
     color: #fff;
     background-color: transparent;
     font-size: 25px;
-<<<<<<< HEAD
-    font-family: helvetica;
-=======
-    font-family: Helvetica;
->>>>>>> d25bf8c90209db6c3ee9feab8af42399913d4499
+    font-family: 'Helvetica';
 }
 
 header{
@@ -16,6 +12,22 @@ header{
     color: #fff;
     height: 100px;
     
+}
+.corpo{
+    display: flex;
+    flex-flow: row wrap;
+}
+.card1{
+    flex: 100%;
+    margin: 1%;
+}
+.card2{
+    flex: 100%;
+    margin: 1%;
+}
+.card3{
+    flex: 100%;
+    margin: 1%;
 }
 
 #logo{
@@ -190,7 +202,7 @@ header{
 .seta-descricao{
     width: 45px;
     position: relative;
-    left: 1350px;
+    left: 1300px;
 }
 .texto-descricao{
     font-size: 30px;
@@ -226,8 +238,8 @@ header{
         color: rgb(5, 2, 2);
 }
 .adicionar-carrinho{
-    display: block;/*oi*/
-    width: 40%;
+    display: block;
+    width: 60%;
     font-size: 40px;
     text-align: center;
     text-transform: uppercase;

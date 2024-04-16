@@ -25,6 +25,32 @@ header{
 }
 
 /*CORPO*/
+.corpo{
+    display: flex;
+    flex-flow: row wrap;
+}
+@media scren and (max-width: 300px)
+{
+    .corpo{
+        display: column;
+    }
+}   
+.card1{
+    flex: 50%;
+    height: 350px;
+    margin: 1%;
+}
+
+.card2{
+    flex: 50%;
+    height: 350px;
+    margin: 1%;
+}
+.card3{
+    flex: 50%;
+    height: 350px;
+    margin: 1%;
+}
 
 
 .lista-produtos-carrinho{
@@ -46,7 +72,7 @@ header{
 #descricao-produto{
     font-family: Helvetica;
     font-size: 30px;
-
+      display: flex;
     margin-top: -220px;
     margin-left: 500px;
 }
@@ -54,7 +80,8 @@ header{
 #descricao-produto1{
     font-family: Helvetica;
     font-size: 30px;
-    margin-top: -230px;
+    display: flex;
+    margin-top: -220px;
     margin-left: 500px;
 }
 
@@ -85,8 +112,7 @@ header{
     border: 2px solid black; /* Espessura, estilo e cor da linha */
     height: 300px;
     width: 108%;
-  
-
+    
 }
 
 #subtotal{
@@ -128,4 +154,6 @@ header{
     height: 250px;
 
 }
+
+
 
